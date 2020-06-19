@@ -12,19 +12,19 @@ nim c tinyc.nim
 
 to interpret input directly
 ```
-nim -i:"a = 100"
-nim --interpret:"a = 100"
+tinyc -i:"a = 100"
+tinyc --interpret:"a = 100"
 ```
 
 to interpret a file
 ```
-nim -f:myfile.c
-nim --file:myfile.c
+tinyc -f:myfile.c
+tinyc --file:myfile.c
 ```
 
 to run tests
 ```
-nim -t
-nim --test
+tinyc -t
+tinyc --test
 ```
 
